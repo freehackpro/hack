@@ -1,0 +1,379 @@
+/**************************
+
+Website Designed by CounterMind on Marketing-Rhino.com
+https://www.marketing-rhino.com/
+It is forbidden to re-sell this landing page without Author Permission.
+
+**************************/
+/*--------------------------------------------------------------
+# Basics
+--------------------------------------------------------------*/
+body {
+	overflow-x: hidden;
+	background: #15151e;
+}
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+ul {
+	list-style: none;
+}
+textarea, input, a, button { 
+	outline: none;
+}
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+} 
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body {
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+	color: #fff;
+}
+a {
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:active, button:focus; {
+	text-decoration: none !important;
+	outline: none !important;
+}
+::selection {
+	background: #000;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #000;
+	color: #fff;
+	text-shadow: none;
+}
+
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+.animation-delay-100 {
+	-webkit-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+.animation-delay-200 {
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+.animation-delay-300 {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+.animation-delay-400 {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+.animation-delay-600 {
+	-webkit-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+}
+.animation-delay-800 {
+	-webkit-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+}
+.animation-delay-1000 {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.animation-delay-2000 {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header {
+	color: #fff;
+	position: relative;
+	padding: 100px 0 30px 0;
+}
+header:after {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 30px auto 0 auto;
+	position: relative;
+}
+.header-content {
+	text-align: center;
+}
+.header-content h1 {
+	font-size: 8em;
+	letter-spacing: 2px;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 2px 2px 0 rgba(0, 0, 0, 0.7);
+}
+.header-content h1 span {
+	color: #33cdff;
+}
+.header-content p {
+	font-size: 1.7em;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+/*--------------------------------------------------------------
+# Search
+--------------------------------------------------------------*/
+.game-search-wrapper {
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto 50px auto;
+}
+.game-search-wrapper h3 {
+	font-size: 1em;
+	text-align: center;
+	margin: 0 0 3px 0;
+	color: #33cdff;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.input-icon-wrapper {
+	position: relative;
+	margin: 0 auto;
+}
+.input-icon-wrapper span.lnr {
+	position: absolute;
+	font-size: 30px;
+	color: rgba(255,255,255,0.3);
+	left: 30px;
+	top: 37px;
+}
+.input-style {
+	height: 100px;
+	font-size: 1.3em;
+	color: #fff;
+	outline: none !important;
+	width: 100%;
+	padding: 0 15px 0 85px;
+	border: none;
+	box-shadow: none;
+	background: #1d1d27;
+	border-radius: 10px;
+}
+.input-style::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #fff;
+	opacity: 1;
+}
+.input-style::-moz-placeholder { /* Firefox 19+ */
+	color: #fff;
+	opacity: 1;
+}
+.input-style:-ms-input-placeholder { /* IE 10+ */
+	color: #fff;
+	opacity: 1;
+}
+.input-style:-moz-placeholder { /* Firefox 18- */
+	color: #fff;
+	opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# App Grid
+--------------------------------------------------------------*/
+.app-grid-section .container {
+	max-width: 800px;
+}
+.app-item {
+	padding: 15px 15px;
+	width: 25%;
+}
+.app-item-content {
+	position: relative;
+	padding: 15px;
+	border-radius: 20px;
+	background: #1d1d27;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.8);	
+	-webkit-transition: -webkit-transform 300ms cubic-bezier(0.225, 3, 0.485, 0.895);
+	transition: -webkit-transform 300ms cubic-bezier(0.225, 3, 0.485, 0.895);
+	transition: transform 300ms cubic-bezier(0.225, 3, 0.485, 0.895);
+	transition: transform 300ms cubic-bezier(0.225, 3, 0.485, 0.895), -webkit-transform 300ms cubic-bezier(0.225, 3, 0.485, 0.895);
+}
+.app-item-content:hover {
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+.app-item img {
+	display: table;
+	margin: 0 auto;
+	max-width: 100px;
+}
+.app-title {
+	color: #fff;
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+.app-link-wrapper {
+	position: relative;
+	margin: 5px 0 0 0;
+}
+.app-link-wrapper a {
+	background: #33cdff;
+	display: table;
+	margin: 0 auto;
+	padding: 5px 15px 4px 35px;
+	color: #fff;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.85em;
+	letter-spacing: 1px;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+	text-decoration: none !important;
+	border: 2px solid #eee;
+	position: relative;
+}
+.app-link-wrapper a:hover {
+	background: #10a9db;
+	color: #fff;
+}
+.app-link-wrapper a span.lnr {
+	position: absolute;
+	left: 12px;
+	top: 6px;
+	font-size: 1.2em;
+	color: rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+.app-link-wrapper a:hover span.lnr {
+	color: rgba(0, 0, 0, 0.5);
+}
+.no-result-found-wrapper {
+	display: block;
+	text-align: center;
+	font-size: 2.4em;
+	display: none;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	z-index: 50;
+	margin: 80px 0 0 0;
+	min-height: 700px;
+}
+.no-result-found-wrapper span.lnr {
+	font-size: 5em;
+	display: block;
+	margin: 0 0 20px 0;
+	color: #1d1d27;
+}
+.no-result-found-wrapper p {
+	font-size: 0.4em;
+	max-width: 600px;
+	margin: 20px auto 0 auto;
+	color: #999;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+	margin-top: 120px;
+	text-align: center;
+	padding: 5px 0;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 1em;
+	position: relative;
+	z-index: 10;
+}
+
+
+/*--------------------------------------------------------------
+# Responsive Design
+--------------------------------------------------------------*/
+@media screen and (max-width: 1920px) {
+	.header-content h1 {
+		font-size: 7em;
+	}
+	.header-content p {
+		font-size: 1.6em;
+	}
+	.container {
+		max-width: 800px;
+	}
+	.app-link-wrapper a {
+		padding: 15px 25px 15px 45px;
+		letter-spacing: 1px;
+	}
+	.app-link-wrapper a span.lnr {
+		top: 15px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.header-content h1 {
+		font-size: 5em;
+	}
+	.header-content p {
+		font-size: 1.2em;
+	}	
+	.app-item {
+		padding: 10px 10px;
+		width: 33%;
+	}
+	.app-link-wrapper a {
+		padding: 12px 15px 10px 35px;
+		letter-spacing: 0;
+	}
+	.app-link-wrapper a span.lnr {
+		font-size: 1em;
+		left: 12px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.app-item {
+		padding: 7px;
+		width: 50%;
+	}
+	.header-content, .footer-content {
+		padding: 0 25px;
+	}
+	header {
+		padding-top: 50px;
+	}
+	.header-content h1 {
+		font-size: 3.2em;
+	}
+	.app-item img {
+		max-width: 70%;
+		display: table;
+		margin: 0 auto;
+	}
+	.app-link-wrapper a {
+		padding: 10px 10px 8px 35px;
+		letter-spacing: 0;
+		font-size: 0.9em;
+	}
+	.app-link-wrapper a span.lnr {
+		font-size: 1em;
+		left: 12px;
+	}
+}
+/**************************
+
+Website Designed by CounterMind on Marketing-Rhino.com
+https://www.marketing-rhino.com/
+It is forbidden to re-sell this landing page without Author Permission.
+
+**************************/
