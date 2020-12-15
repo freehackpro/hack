@@ -1,0 +1,223 @@
+/**************************
+
+Website Designed by Pesho
+
+**************************/
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	background-color: #000;
+    color: #FFF;
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden;
+}
+.logo {
+    margin: 0 auto;
+    text-align: center;
+}
+.logo img {
+    display: inline-block;
+    margin: 20px 0 20px 0;
+}
+.responsive-image {
+    max-width: 100%;
+}
+.main {
+    max-width: 920px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.head-wrapper {
+    text-align: center;
+}
+.head-wrapper h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+.head-wrapper h2 {
+    font-size: 40px;
+    color: #0a1f52;
+}
+.main-wrapper {
+    text-align: center;
+}
+.hidden {
+	opacity: 0;
+    display: none;
+}
+.selector-wrapper {
+    text-align: center;
+}
+.generator-wrapper {
+    text-align: center;
+    position: relative;
+}
+.buttonGen {
+    margin: 20px auto;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 3em;
+    outline: none;
+}
+.user-info-form-wrapper {
+    max-width: 600px;
+    margin: 30px auto;
+}
+.form-item-wrapper {
+    position: relative;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-item-wrapper span.lnr {
+    font-size: 1.8em;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #FFF;
+}
+.styled-form-input {
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    font-size: 1.6em;
+    font-weight: 300;
+    padding: 0 0 0 80px;
+    height: 50px;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+select option {
+   background-color: #000;
+}
+.verification-wrapper {
+    position: relative;
+    background-color: #0a1f52;
+    color: #FFF;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.verification-wrapper h3 {
+    color: #fff;
+    font-weight: bold;
+}
+.verification-username{
+    color: #f6eab6;
+}
+.load-text {
+    text-align: center;
+    color: #FFF;
+    margin: 30px auto 30px auto;
+    min-height: 60px;
+}
+.progress {
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #4C4945;
+}
+.progress-bar {
+    text-align: left;
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 0px;
+    line-height: 30px;
+    color: #FFF!important;
+    padding-left: 7px;
+    background-color: #ffff;
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.user-img {
+    display: table;
+    margin: 0 auto 20px auto;
+}
+
+@media screen and (max-width: 767px) {
+    .buttonGen{
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 575px) {
+    .head-wrapper h1{
+        font-size: 3.2em;
+    }
+    .head-wrapper h2{
+        font-size: 2.5em;
+    }
+    .buttonGen{
+        font-size: 1.9em;
+    }
+}
+@media screen and (max-width: 460px) {
+    .styled-form-input {
+        font-size: 1.2em;
+        padding-left: 50px;
+    }
+    .head-wrapper h1{
+        font-size: 3em;
+    }
+    .head-wrapper h2{
+        font-size: 2.3em;
+    }
+    .verification-wrapper h3{
+        font-size: 1.5em;
+    }
+    .verification-wrapper p{
+        font-size: 18px;
+    }
+    .buttonGen{
+        font-size: 1.8em;
+    }
+    .user-img-wrapper img{
+        width: 130px;
+        height: 130px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .buttonGen{
+        font-size: 1.5em;
+    }
+    .verification-wrapper p{
+        font-size: 16px;
+    }
+    .head-wrapper h1{
+        font-size: 2.5em;
+    }
+    .head-wrapper h2{
+        font-size: 1.6em;
+    }
+}
+@media screen and (max-width: 340px) {
+    .buttonGen{
+        font-size: 1.2em;
+    }
+    .head-wrapper h1{
+        font-size: 2.2em;
+    }
+    .head-wrapper h2{
+        font-size: 1.5em;
+    }
+    label{
+        font-size: 0.8em;
+    }
+    body{
+        font-size: 16px;
+    }
+}
